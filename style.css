@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #ccddff;
+	font-family: 'Roboto', sans-serif;
+	background: #fff url("bg1.jpg") no-repeat fixed center;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.container{
+	margin: 150 auto;
+}
+.selected{
+	background-color: #ebebeb;
+}
+.panel{
+	border: 1px solid #adadad;
+	border-radius: 10px;
+	margin: 0 auto;
+	width: 700px;
+	min-height: 450px;
+	background-color: #fff;
+	opacity: 0.88;
+	margin-bottom: 50px;
+}
+.panel-heading{
+	text-align: center;
+	line-height: 50px;
+	background-color: #00171F;
+	border: 0;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+	font-size: 14pt;
+	height: 50px;
+}
+.panel-body{
+	font-size: 12pt;
+	line-height: 40px;
+	text-align: center;
+
+}
+.panel-body{
+
+}
+.panel-body p {
+	margin: 40 auto;
+	border: 1px solid #adadad;
+	border-radius: 10px;
+	/*background-color: #fff;*/
+	min-height: 40px;
+	width: 500px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+.panel-body p:hover:not(.result){
+	letter-spacing: 2px;
+	transition: all 0.5s;
+	
+}
+.hover{
+	background-color: #ebebeb;
+}
+.panel-footer{
+	border-top: 1px solid #adadad;
+
+}
+.panel-footer p {
+	text-align: right;
+	padding-right: 20px;
+}
+.bucket{
+	margin-left: 100px;
+	float: left;
+	width: 150px;
+	border: 1px solid black;
+	background-color: #fff;
+	text-align: center;
+}
+
